@@ -18,7 +18,7 @@ export const Home = () => {
             <h1>Price Monitoring User Manual</h1>
             <p>
                 <img src={logo} className={styles.logo} alt="user manual" />
-                Price Monitoring is a Google Chrome extension that works locally on your computer and monitors prices of
+                <a href='https://chromewebstore.google.com/detail/price-monitoring/phffollgimjapdigfkofoobnogdpimpm' target='_blank'>Price Monitoring</a> is a Google Chrome extension that works locally on your computer and monitors prices of
                 the products you are interested in. It can also track any changes on websites and send notifications in
                 case of changes to the monitored items. To use the extension, your computer must be turned on, and the
                 Google Chrome browser must be running.
