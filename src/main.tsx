@@ -6,7 +6,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/price-monitoring/' : '/'}>
+        {/* <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/price-monitoring/' : '/'}> */}
+        <BrowserRouter basename={'/'}>
             <App />
         </BrowserRouter>
     </StrictMode>
